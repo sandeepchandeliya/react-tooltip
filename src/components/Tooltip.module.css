@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+.target{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.box{
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.target:hover .box{
+    opacity: 1;
+}
+
+.box.top{
+   bottom: 125%;
+   left: 50%; 
+   transform: translateX(-50%);
+}
+.box.bottom{
+   top: 125%;
+   left: 50%; 
+   transform: translateX(-50%);
+}
+.box.left{
+   right: 125%;
+   top: 50%; 
+   transform: translateY(-50%);
+}
+.box.right{
+   left: 125%;
+   top: 50%; 
+   transform: translateY(-50%);
+}
