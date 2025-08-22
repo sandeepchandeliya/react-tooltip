@@ -4,6 +4,7 @@ import Tooltip from "./components/Tooltip"
 
 function App() {
   
+  //-----> State to control which position  the tooltip should appear in
 const [position, setPositon] = useState('top');
   return (
     <>

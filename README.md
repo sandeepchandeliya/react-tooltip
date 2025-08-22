@@ -1,12 +1,59 @@
-# React + Vite
+# 🎯 React Tooltip Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and reusable **React Tooltip** component built from scratch as part of a skill test.  
+When you hover over a button, a tooltip appears. The position of the tooltip (`top`, `bottom`, `left`, `right`) can be dynamically set using props.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🖱️ Tooltip appears on **hover**
+- 🎯 Supports positions: **Top, Bottom, Left, Right**
+- 🔄 Controlled using **React state**
+- ♻️ **Reusable** with any element (button, link, icon, etc.)
+- 🎨 Styled with **CSS Modules**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+│── src/
+│ ├── App.jsx # Main app component
+│ ├── components/
+│ │ └── Tooltip.jsx # Tooltip component
+│ └── Tooltip.module.css # Tooltip styling
+│── package.json
+│── README.md
+
+
+---
+
+## ⚡ Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sandeepchandeliya/react-tooltip.git
+   cd react-tooltip
+
+2. Install dependencies:
+   npm install
+
+3. Run the development server:
+   npm run dev
+
+4. Open your browser at:      
+   http://localhost:5173
+
+
+
+
+🎥 Demo
+
+. Hover over the button to see the tooltip.
+
+. Use the dropdown to switch tooltip positions in real time.   
+
+
+📜 License
+
+  This project is licensed under the MIT License.
