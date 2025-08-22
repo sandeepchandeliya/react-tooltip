@@ -17,13 +17,13 @@ When you hover over a button, a tooltip appears. The position of the tooltip (`t
 
 ## 📂 Project Structure
 
-│── src/
-│ ├── App.jsx # Main app component
-│ ├── components/
-│ │ └── Tooltip.jsx # Tooltip component
-│ └── Tooltip.module.css # Tooltip styling
-│── package.json
-│── README.md
+src/
+├── App.jsx # Main app component
+├── components/
+│ └── Tooltip.jsx # Tooltip component
+└── Tooltip.module.css # Tooltip styling
+package.json
+README.md
 
 
 ---
