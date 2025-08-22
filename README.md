@@ -17,6 +17,8 @@ When you hover over a button, a tooltip appears. The position of the tooltip (`t
 
 ## 📂 Project Structure
 
+```bash
+
 ├── .gitignore
 ├── README.md
 ├── eslint.config.js
@@ -38,11 +40,10 @@ When you hover over a button, a tooltip appears. The position of the tooltip (`t
 
 ## ⚡ Installation & Setup
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/sandeepchandeliya/react-tooltip.git
    cd react-tooltip
-
 2. Install dependencies:
    npm install
 
