@@ -17,13 +17,22 @@ When you hover over a button, a tooltip appears. The position of the tooltip (`t
 
 ## 📂 Project Structure
 
-src/
-├── App.jsx # Main app component
-├── components/
-│ └── Tooltip.jsx # Tooltip component
-└── Tooltip.module.css # Tooltip styling
-package.json
-README.md
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+    └── vite.svg
+├── src
+    ├── App.jsx
+    ├── components
+    │   ├── Tooltip.jsx
+    │   └── Tooltip.module.css
+    ├── index.css
+    └── main.jsx
+└── vite.config.js
 
 ---
 
